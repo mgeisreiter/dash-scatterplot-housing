@@ -36,9 +36,9 @@ trace = go.Scatter(
     mode = 'markers',
     marker=dict(
         size=8,
-        color = df['BATHRM'], # set color equal to a third variable
+        color = df['BEDRM'], # set color equal to a third variable
         colorscale=[color1, color2],
-        colorbar=dict(title='Fireplaces'),
+        colorbar=dict(title='Bedrooms'),
         showscale=True
     )
 )
